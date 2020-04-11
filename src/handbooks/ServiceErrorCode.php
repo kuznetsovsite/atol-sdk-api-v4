@@ -1,0 +1,23 @@
+<?php
+
+namespace SaveTime\AtolV4\handbooks;
+
+class ServiceErrorCode
+{
+    const UNDEFINED = 0;
+    const INCOMING_CHEQUE_PROCESSING_FAILED = 1;
+    const MISSING_TOKEN = 10;
+    const EXPIRED_TOKEN = 11;
+    const WRONG_LOGIN_OR_PASSWORD = 12;
+    const VALIDATION_EXCEPTION = 13;
+    const GROUP_CODE_AND_TOKEN_DONT_MATCH = 20;
+    const NOT_SUPPORTED_GROUP_CODE_FOR_PROTOTCOL = 21;
+    const MISSING_UUID = 30;
+    const INCOMING_OPERAIONT_NOT_SUPPORTED = 31;
+    const INCOMINFG_VALIDATION_EXCEPTION = 32;
+    const INCOMING_EXTERNAL_ID_ALREADY_EXISTS = 33;
+    const STATE_CHECK_NOT_FOUND = 34;
+    const BAD_REQUEST = 40;
+    const UNSUPPORTED_MEDIA_TYPE = 41;
+    const ERROR_SERVER_CONFIGURATION = 50;
+}
